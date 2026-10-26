@@ -1,0 +1,630 @@
+[
+  {
+    "id": "spa-acc-2026-09-12",
+    "circuit": "Spa-Francorchamps",
+    "pays": "Belgique",
+    "longueurKm": 7.004,
+    "source": "ACC",
+    "voiture": "Porsche 911 GT3 R",
+    "date": "2026-09-12",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 268,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          43541,
+          64103,
+          35967
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          42949,
+          63243,
+          35032
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          42602,
+          63562,
+          35240
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          42712,
+          63265,
+          35182
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          42833,
+          63278,
+          34714
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spa-iracing-2026-09-20",
+    "circuit": "Spa-Francorchamps",
+    "pays": "Belgique",
+    "longueurKm": 7.004,
+    "source": "iRacing",
+    "voiture": "BMW M4 GT3",
+    "date": "2026-09-20",
+    "conditions": "Pluie",
+    "vitesseMaxKmh": 251,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          47251,
+          71018,
+          39050
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          46203,
+          70186,
+          38587
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          46238,
+          70238,
+          37923
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          46376,
+          69841,
+          38023
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monza-acc-2026-09-05",
+    "circuit": "Monza",
+    "pays": "Italie",
+    "longueurKm": 5.793,
+    "source": "ACC",
+    "voiture": "Ferrari 296 GT3",
+    "date": "2026-09-05",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 279,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          34905,
+          38477,
+          37424
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          33742,
+          38091,
+          37200
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          34199,
+          37636,
+          37133
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          33625,
+          37434,
+          37167
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          33946,
+          37542,
+          37175
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monza-ac-2026-08-15",
+    "circuit": "Monza",
+    "pays": "Italie",
+    "longueurKm": 5.793,
+    "source": "Assetto Corsa",
+    "voiture": "Mazda MX-5 Cup",
+    "date": "2026-08-15",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 198,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          40889,
+          45473,
+          44465
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          40804,
+          45017,
+          43367
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          40310,
+          44817,
+          43255
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          40536,
+          45049,
+          43657
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brands-hatch-acc-2026-10-02",
+    "circuit": "Brands Hatch",
+    "pays": "Royaume-Uni",
+    "longueurKm": 3.908,
+    "source": "ACC",
+    "voiture": "McLaren 720S GT3 Evo",
+    "date": "2026-10-02",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 241,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          32335,
+          30279,
+          24549
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          31254,
+          30373,
+          23213
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          30982,
+          29612,
+          23367
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          31218,
+          30004,
+          23694
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          30945,
+          30017,
+          23642
+        ]
+      },
+      {
+        "numero": 6,
+        "secteurs": [
+          31039,
+          29953,
+          23190
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nurburgring-iracing-2026-10-10",
+    "circuit": "Nürburgring GP",
+    "pays": "Allemagne",
+    "longueurKm": 5.148,
+    "source": "iRacing",
+    "voiture": "Mercedes-AMG GT3",
+    "date": "2026-10-10",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 262,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          39268,
+          41640,
+          36609
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          39016,
+          40761,
+          36651
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          38521,
+          40728,
+          36149
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          38594,
+          40513,
+          36381
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          38371,
+          40561,
+          36389
+        ]
+      }
+    ]
+  },
+  {
+    "id": "magny-cours-racebox-2026-09-27",
+    "circuit": "Magny-Cours",
+    "pays": "France",
+    "longueurKm": 4.411,
+    "source": "RaceBox",
+    "voiture": "Alpine A110 S",
+    "date": "2026-09-27",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 214,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          43026,
+          46395,
+          37001
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          42154,
+          45347,
+          35843
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          41875,
+          45416,
+          35832
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          42319,
+          45497,
+          35662
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bugatti-racebox-2026-08-30",
+    "circuit": "Circuit Bugatti",
+    "pays": "France",
+    "longueurKm": 4.185,
+    "source": "RaceBox",
+    "voiture": "Mazda MX-5 ND",
+    "date": "2026-08-30",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 189,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          44728,
+          43540,
+          39617
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          44498,
+          42346,
+          39482
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          44218,
+          42365,
+          39206
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          43808,
+          42632,
+          39122
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          43820,
+          42565,
+          39414
+        ]
+      }
+    ]
+  },
+  {
+    "id": "croix-racebox-2026-10-18",
+    "circuit": "Croix-en-Ternois",
+    "pays": "France",
+    "longueurKm": 1.9,
+    "source": "RaceBox",
+    "voiture": "Mazda MX-5 ND",
+    "date": "2026-10-18",
+    "conditions": "Pluie",
+    "vitesseMaxKmh": 162,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          24294,
+          23113,
+          23554
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          23508,
+          22508,
+          22903
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          23407,
+          22346,
+          23070
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          23978,
+          22399,
+          22738
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          23750,
+          22084,
+          22707
+        ]
+      },
+      {
+        "numero": 6,
+        "secteurs": [
+          23424,
+          22153,
+          22954
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paul-ricard-ac-2026-09-08",
+    "circuit": "Paul Ricard",
+    "pays": "France",
+    "longueurKm": 5.842,
+    "source": "Assetto Corsa",
+    "voiture": "Porsche Cayman GT4",
+    "date": "2026-09-08",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 246,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          38762,
+          50448,
+          45003
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          37924,
+          49781,
+          44915
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          38324,
+          50332,
+          44221
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          38013,
+          49970,
+          44293
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spa-acc-2026-10-15",
+    "circuit": "Spa-Francorchamps",
+    "pays": "Belgique",
+    "longueurKm": 7.004,
+    "source": "ACC",
+    "voiture": "Porsche 911 GT3 R",
+    "date": "2026-10-15",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 271,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          43055,
+          63591,
+          35377
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          42663,
+          62927,
+          34676
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          42763,
+          62842,
+          34766
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          42503,
+          62961,
+          34789
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          42237,
+          62789,
+          34573
+        ]
+      },
+      {
+        "numero": 6,
+        "secteurs": [
+          42260,
+          62935,
+          34510
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zandvoort-acc-2026-10-21",
+    "circuit": "Zandvoort",
+    "pays": "Pays-Bas",
+    "longueurKm": 4.259,
+    "source": "ACC",
+    "voiture": "Audi R8 LMS Evo II",
+    "date": "2026-10-21",
+    "conditions": "Sec",
+    "vitesseMaxKmh": 254,
+    "tours": [
+      {
+        "numero": 1,
+        "secteurs": [
+          32152,
+          34125,
+          31483
+        ]
+      },
+      {
+        "numero": 2,
+        "secteurs": [
+          31502,
+          33157,
+          30635
+        ]
+      },
+      {
+        "numero": 3,
+        "secteurs": [
+          31827,
+          33054,
+          30956
+        ]
+      },
+      {
+        "numero": 4,
+        "secteurs": [
+          31651,
+          33370,
+          31202
+        ]
+      },
+      {
+        "numero": 5,
+        "secteurs": [
+          31871,
+          33155,
+          30689
+        ]
+      }
+    ]
+  }
+]

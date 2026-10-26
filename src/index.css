@@ -1,1 +1,58 @@
 @import "tailwindcss";
+
+/*
+ * Design tokens Apex Telemetry.
+ * Ambiance : précis, nerveux, nocturne.
+ * Toutes les couleurs des composants viennent d'ici : aucune couleur en dur ailleurs.
+ */
+@theme {
+  /* Police */
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Barlow", ui-sans-serif, sans-serif;
+
+  /* Fonds : noir carbone */
+  --color-carbon-950: #0a0c10;
+  --color-carbon-900: #11141a;
+  --color-carbon-800: #1a1e26;
+  --color-carbon-700: #262b36;
+  --color-carbon-600: #3a4150;
+
+  /* Textes */
+  --color-ink: #f2f4f8;
+  --color-ink-muted: #a3acbd;
+
+  /* Couleur principale : rouge signal */
+  --color-signal-300: #ff8a80;
+  --color-signal-400: #ff4d3d;
+  --color-signal-500: #e10600;
+  --color-signal-600: #b80500;
+  --color-signal-700: #8f0400;
+
+  /* Accent : vert chrono */
+  --color-chrono-300: #8ff0b8;
+  --color-chrono-400: #3ddc84;
+  --color-chrono-500: #1fb866;
+
+  /* Code couleur des secteurs (chronométrage) */
+  --color-sector-record: #c08bff;
+  --color-sector-better: #3ddc84;
+  --color-sector-slower: #ffd23f;
+
+  /* Retours de formulaire */
+  --color-danger: #ff6b5e;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-carbon-950 font-sans text-ink antialiased;
+  }
+
+  /* Focus visible commun à tout le site */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-chrono-400;
+  }
+}

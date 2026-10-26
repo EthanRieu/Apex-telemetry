@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gratuit",
+    "nom": "Gratuit",
+    "prix": 0,
+    "periode": "mois",
+    "description": "Pour découvrir l'analyse de tes sessions.",
+    "avantages": ["5 sessions par mois", "Temps au tour et secteurs", "Tour idéal"],
+    "recommandee": false
+  },
+  {
+    "id": "pilote",
+    "nom": "Pilote",
+    "prix": 6,
+    "periode": "mois",
+    "description": "Pour progresser à chaque roulage.",
+    "avantages": ["Sessions illimitées", "Comparaison de deux tours", "Historique par circuit"],
+    "recommandee": true
+  },
+  {
+    "id": "team",
+    "nom": "Team",
+    "prix": 19,
+    "periode": "mois",
+    "description": "Pour une écurie ou un groupe de pilotes.",
+    "avantages": ["Jusqu'à 5 pilotes", "Classement interne par circuit", "Partage de sessions"],
+    "recommandee": false
+  },
+  {
+    "id": "coaching",
+    "nom": "Analyse coaching",
+    "prix": 29,
+    "periode": "unique",
+    "description": "Un coach analyse une de tes sessions.",
+    "avantages": ["Rapport écrit sous 72 h", "3 axes de progression", "Visio de 20 minutes"],
+    "recommandee": false
+  }
+]
