@@ -1,16 +1,42 @@
-# React + Vite
+# Apex Telemetry
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site d'un client fictif : un SaaS d'analyse de sessions circuit (simracing et trackday).
+Projet noté du module TailwindCSS & SASS, ESGI Reims.
 
-Currently, two official plugins are available:
+## Lancer le projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev              # site sur http://localhost:5173
+npm run storybook        # design system sur http://localhost:6006
+npm test                 # chaque story : rendu + audit d'accessibilité
+npm run build            # build de production dans dist/
+```
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite, React, Tailwind 4 (tokens dans `@theme`), `sass-embedded`, Storybook.
 
-## Expanding the Oxlint configuration
+## Organisation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```
+src/
+  index.css            tokens du design system (@theme)
+  styles/              partials SASS (_variables, _mixins)
+  data/                sessions.json (12 sessions), offres.json
+  lib/                 calculs dérivés (chrono), validation du formulaire
+  hooks/               navigation par hash
+  components/          composants de base + stories
+  layout/              en-tête, pied de page, logo
+  pages/               Accueil, Sessions, Tarifs, Inscription
+docs/                  fiche de cadrage, dossier de projet, captures
+```
+
+## Écrans
+
+| Route | Écran |
+|---|---|
+| `#/` | Accueil |
+| `#/sessions` | Sessions : filtres, tri, détail en modale, état vide |
+| `#/tarifs` | Tarifs |
+| `#/inscription` | Inscription : validation, chargement, confirmation |
