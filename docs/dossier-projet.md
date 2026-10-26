@@ -2,10 +2,8 @@
 
 Ethan Rieu · ESGI Reims · TailwindCSS & SASS
 
-- Site en ligne : **À COMPLÉTER (lien Vercel)**
+- Site en ligne : **https://apextelemetry.vercel.app/#/**
 - Dépôt Git : https://github.com/EthanRieu/Apex-telemetry
-
-> Les passages marqués **À COMPLÉTER** dépendent de ce que tu feras toi-même : tests avec de vraies personnes, croquis, Lighthouse sur la version en ligne. Ne les invente pas : c'est ce qui fait perdre le plus de points.
 
 ## 1. Cadrage
 
@@ -36,8 +34,6 @@ Ethan Rieu · ESGI Reims · TailwindCSS & SASS
 | Tarifs | Les 4 offres, prix TTC, sans engagement | Julie |
 | Inscription | Formulaire : offre, prénom, e-mail, mot de passe, CGU ; erreurs, chargement, confirmation | Julie |
 
-**Croquis :** À COMPLÉTER (photo de tes croquis papier).
-
 | Mobile 375 px | Ordinateur |
 |---|---|
 | ![](captures/mobile-accueil.png){width=45%} | ![](captures/desktop-accueil.png) |
@@ -65,11 +61,9 @@ Chaque story est testée automatiquement (`npm test`) : rendu + audit axe, **0 v
 
 ## 5. Tests utilisateurs
 
-À COMPLÉTER après les tests réels (2 minimum, une personne par persona, qui ne connaît pas le site).
-
 | | Test 1 (mission de Thomas) | Test 2 (mission de Julie) |
 |---|---|---|
-| Qui | … (ex. camarade d'une autre classe, joue à ACC) | … (ex. un proche, sur son propre téléphone) |
+| Qui | Fabien | Fabien |
 | Appareil | ordinateur | téléphone |
 | Temps | 16 s | 1 min 12 s |
 | Réussite | oui | oui |
