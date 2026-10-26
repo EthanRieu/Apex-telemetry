@@ -1,0 +1,13 @@
+// Variables SASS : elles pointent vers les tokens Tailwind (@theme),
+// pour garder une seule source de vérité pour les couleurs.
+
+// Une entrée par statut de secteur : la boucle du badge génère une classe par entrée
+$sector-variants: (
+  record: var(--color-sector-record),
+  better: var(--color-sector-better),
+  slower: var(--color-sector-slower),
+);
+
+$badge-radius: 0.375rem;
+$badge-min-height: 1.75rem;
+$tint-strength: 16%;

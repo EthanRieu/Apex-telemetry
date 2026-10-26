@@ -1,0 +1,14 @@
+@use 'variables' as v;
+
+// Chiffres à largeur fixe : les temps restent alignés en colonne
+@mixin tabular-figures {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+// Fond teinté + bordure à partir d'une seule couleur
+@mixin tinted($color) {
+  color: $color;
+  background-color: color-mix(in oklab, #{$color} v.$tint-strength, transparent);
+  border: 1px solid color-mix(in oklab, #{$color} 45%, transparent);
+}

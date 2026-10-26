@@ -1,3 +1,4 @@
+import '../src/fonts.js'
 import '../src/index.css'
 
 /** @type { import('@storybook/react-vite').Preview } */
