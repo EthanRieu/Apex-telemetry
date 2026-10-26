@@ -33,13 +33,19 @@
   --color-chrono-400: #3ddc84;
   --color-chrono-500: #1fb866;
 
-  /* Code couleur des secteurs (chronométrage) */
+  /* Retours de formulaire */
+  --color-danger: #ff6b5e;
+}
+
+/*
+ * Code couleur des secteurs (chronométrage), lu par le CSS Module SASS du SectorBadge.
+ * "static" : Tailwind n'émet que les variables utilisées par ses classes ;
+ * celles-ci ne le sont que par le SASS, on force donc leur présence.
+ */
+@theme static {
   --color-sector-record: #c08bff;
   --color-sector-better: #3ddc84;
   --color-sector-slower: #ffd23f;
-
-  /* Retours de formulaire */
-  --color-danger: #ff6b5e;
 }
 
 @layer base {

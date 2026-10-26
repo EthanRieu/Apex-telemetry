@@ -8,7 +8,7 @@ export default function SessionCard({ session, onOpen }) {
     <article className="flex h-full flex-col gap-4 rounded-2xl border border-carbon-700 bg-carbon-900 p-5">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <h3 className="font-display text-2xl font-bold break-words uppercase">{session.circuit}</h3>
+          <h2 className="font-display text-2xl font-bold break-words uppercase">{session.circuit}</h2>
           <p className="text-sm text-ink-muted">
             {session.pays} · {session.longueurKm.toLocaleString('fr-FR')} km
           </p>
