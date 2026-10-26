@@ -71,17 +71,17 @@ Chaque story est testée automatiquement (`npm test`) : rendu + audit axe, **0 v
 |---|---|---|
 | Qui | … (ex. camarade d'une autre classe, joue à ACC) | … (ex. un proche, sur son propre téléphone) |
 | Appareil | ordinateur | téléphone |
-| Temps | … s | … min |
-| Réussite | oui / non | oui / non, nombre d'erreurs |
-| Observé | … | … |
-| Corrigé | … | … |
-| Temps au 2e test | … | … |
+| Temps | 16 s | 1 min 12 s |
+| Réussite | oui | oui |
+| Observé | Rien de notable | Rien de notable |
+| Corrigé | Rien de notable | Rien de notable |
+| Temps au 2e test | Pas nécessaire | Pas nécessaire |
 
 ## 6. Trois choix justifiés
 
-1. J'ai mis le **temps du tour juste après son numéro** dans le tableau du détail (avant les secteurs) parce que Thomas cherche d'abord son meilleur tour ; sur mobile, le tableau défile et les colonnes de droite sont masquées. Le test a montré que … *(À COMPLÉTER)*
-2. J'ai ajouté un **écran Tarifs séparé, avec les prix TTC et « sans engagement »**, parce que Julie ne veut pas donner son e-mail avant de connaître le prix. Le test a montré que … *(À COMPLÉTER)*
-3. J'ai doublé la **couleur des secteurs d'une pastille et d'un texte pour lecteur d'écran**, et ajouté une légende, parce que Julie lit son écran en plein soleil et que la couleur seule ne suffit pas. Le test a montré que … *(À COMPLÉTER)*
+1. J'ai mis le **temps du tour juste après son numéro** dans le tableau du détail (avant les secteurs) parce que Thomas cherche d'abord son meilleur tour ; sur mobile, le tableau défile et les colonnes de droite sont masquées. Le test a montré que cela a bien fonctionné il a facilement trouvé le tour le plus rapide
+2. J'ai ajouté un **écran Tarifs séparé, avec les prix TTC et « sans engagement »**, parce que Julie ne veut pas donner son e-mail avant de connaître le prix. Le test a montré que cela a bien fonctionné elle a facilement trouvé les tarifs adaptés à son budget
+3. J'ai doublé la **couleur des secteurs d'une pastille et d'un texte pour lecteur d'écran**, et ajouté une légende, parce que Julie lit son écran en plein soleil et que la couleur seule ne suffit pas. Le test a montré que cela a bien fonctionné elle a facilement trouvé les couleurs adaptées à son écran
 
 ## 7. Qualité
 
@@ -96,6 +96,10 @@ Autres corrections faites pendant l'intégration :
 
 ## 8. Utilisation de l'IA
 
-| Outil | Ce que je lui ai fait produire | Ce que j'ai corrigé ou refusé |
-|---|---|---|
-| Claude Code | Explication de la feuille de projet, adaptation de mon projet APEX (Nuxt) en version React, première version du code, des stories, des données JSON et de la fiche de cadrage | À COMPLÉTER : ce que tu as relu, modifié, refusé (sois précis : c'est vérifié à l'oral) |
+J'ai utilisé Claude code en Opus 5.5 High pour : la création du site web + remise en forme de texte, création des storybook ainsi que des exemples de missions
+
+J'ai réalisé et cadré le projet, définit les besoins fonctionnels, proposer un design visuellement cohérent et adapté à mon projet APEX. J'ai également décider des différents écrans nécessaire ainsi que des différents tarifs (Le business plan).
+
+Le design system à été décidé en collaboration avec Claude code, en utilisant mes besoins fonctionnels et mes préférences visuellement cohérentes.
+
+J'ai également fais faire les tests à des camarades de classe pour vérifier si mes objetifs de mission pour les personna fonctionnent dans des conditions réelles.
