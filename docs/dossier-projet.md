@@ -3,7 +3,7 @@
 Ethan Rieu · ESGI Reims · TailwindCSS & SASS
 
 - Site en ligne : **À COMPLÉTER (lien Vercel)**
-- Dépôt Git : **À COMPLÉTER (lien GitHub)**
+- Dépôt Git : https://github.com/EthanRieu/Apex-telemetry
 
 > Les passages marqués **À COMPLÉTER** dépendent de ce que tu feras toi-même : tests avec de vraies personnes, croquis, Lighthouse sur la version en ligne. Ne les invente pas : c'est ce qui fait perdre le plus de points.
 
@@ -85,9 +85,21 @@ Chaque story est testée automatiquement (`npm test`) : rendu + audit axe, **0 v
 
 ## 7. Qualité
 
-Lighthouse mobile, **version en ligne** : À COMPLÉTER (capture des 4 scores).
+**Lighthouse sur la version en ligne** (écran Sessions, navigation privée) :
 
-Sur le build local, avant la mise en ligne : Performance 98 · Accessibilité 100 · Bonnes pratiques 100 · SEO 91 → **100** après l'ajout d'un `robots.txt`.
+| | Performance | Accessibilité | Bonnes pratiques | SEO |
+|---|---|---|---|---|
+| **Mobile** | **97** | **100** | **100** | **100** |
+| Ordinateur | 100 | 100 | 100 | 100 |
+
+![Lighthouse mobile](captures/lighthouse-mobile.png){width=48%} ![Lighthouse ordinateur](captures/lighthouse-desktop.png){width=48%}
+
+Sur mobile : FCP et LCP 1,7 s, TBT 0 ms, CLS 0. Seul le Speed Index (4,1 s) est orange : c'est la conséquence du réseau mobile lent simulé par Lighthouse, alors qu'il est de 0,4 s sur ordinateur.
+
+Ce que j'ai corrigé :
+- **SEO 91 → 100** : Lighthouse ne trouvait pas de `robots.txt` valide → ajout de `public/robots.txt`.
+- **Un premier audit donnait Performance 80 et Bonnes pratiques 77.** L'analyse a montré que ces mauvais scores ne venaient pas du site mais d'une extension Chrome : son script injecté (`contentscript.js`) apportait l'API obsolète, l'erreur de CSP et 1,1 Mo de JavaScript inutilisé. J'ai refait l'audit en navigation privée, sans extension, pour mesurer le site seul.
+- **Ne jamais auditer `npm run dev`** : en local, le serveur de dev donne Performance 48 (code non minifié), contre 98 pour le build de production.
 
 Autres corrections faites pendant l'intégration :
 - les couleurs de secteur n'apparaissaient pas : Tailwind 4 n'émet que les variables de thème utilisées par ses classes ; elles sont lues uniquement par le SASS → `@theme static` ;
