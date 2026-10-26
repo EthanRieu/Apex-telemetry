@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "vitest run --project=storybook"
   },
   "dependencies": {
     "@fontsource/barlow": "^5.3.0",
@@ -22,13 +23,18 @@
   "devDependencies": {
     "@storybook/addon-a11y": "^10.6.4",
     "@storybook/addon-docs": "^10.6.4",
+    "@storybook/addon-vitest": "^10.6.4",
     "@storybook/react-vite": "^10.6.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
     "oxlint": "^1.88.0",
+    "playwright": "latest",
     "sass-embedded": "^1.106.1",
     "storybook": "^10.6.4",
-    "vite": "^8.3.4"
+    "vite": "^8.3.4",
+    "vitest": "latest"
   }
 }
